@@ -58,7 +58,6 @@ class Admin extends JPanel{
         delFunctionButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                // Add logic for the Delete Student button
                 System.out.println("Delete Student button clicked");
             }
         });
@@ -66,7 +65,6 @@ class Admin extends JPanel{
         viewDetailFunctionButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                // Add logic for the View Student's Details button
                 System.out.println("View Student's Details button clicked");
             }
         });
