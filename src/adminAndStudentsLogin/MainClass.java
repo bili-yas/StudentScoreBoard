@@ -49,7 +49,6 @@ class Admin extends JPanel{
         addFunctionButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                // Add logic for the Add Student button
                 System.out.println("Add Student button clicked");
                 addStudentDialog();
             }
